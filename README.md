@@ -1,9 +1,13 @@
+Sure! Here’s your README **without the Conclusion section**, keeping it clean and minimal:
+
+---
+
 # 📊 Mutual Fund Analysis & Visualization
 
 This project highlights how data science and visualization can be combined to **discover the best-performing mutual fund schemes** with a balance of **returns and risk**.
 
-🛠️ **Technologies Used:** Python (Pandas, Scikit-learn), MS Excel, Power BI
-📂 **Dataset Size:** 2500+ mutual fund schemes → filtered to **Top 30 funds**
+ **Technologies Used:** Python (Pandas, Scikit-learn), MS Excel, Power BI
+ **Dataset Size:** 2500+ mutual fund schemes → filtered to **Top 30 funds**
 
 ---
 
@@ -13,53 +17,52 @@ To analyze a large mutual fund dataset, apply **data-driven ranking techniques**
 
 ---
 
-## 🐍 Python Data Workflow
+##  Python Data Workflow
 
 I began with raw data containing 2500+ schemes and applied a systematic pipeline in Python.
-🔗 [View Python Script]()
+🔗 [View Python Script](https://github.com/notneerajsah/Mutual-Fund-Analyisis-top30-python-excel-powerBi/blob/main/Mutual%20Fund%20Analysis.ipynb)
 
-### 🔹 Step 1: Cleaning & Preparation
+### Step 1: Cleaning & Preparation
 
 * Dropped irrelevant fields
 * Handled blanks and inconsistencies
 * Converted numeric columns (returns, AUM, expense ratio) into proper formats
 
-### 🔹 Step 2: Exploratory Data Analysis
+### Step 2: Exploratory Data Analysis
 
 * Summary statistics: mean, median, range, standard deviation
 * Distribution analysis across fund type, risk grade, and age
 
-### 🔹 Step 3: Normalization
+### Step 3: Normalization
 
 * Applied **MinMaxScaler** to bring all metrics onto a comparable scale
 * Ensured fair comparison between high-return and low-cost funds
 
-### 🔹 Step 4: Scoring & Ranking Model
+### Step 4: Scoring & Ranking Model
 
 Ranking formula considered:
 
-* Strong 3-year returns 📈
-* Reasonable expense ratio 💰
-* Stable track record with 1Y positive return ✅
-* Moderate fund age (not too new, not too old) ⏳
+* Strong 3-year returns
+* Reasonable expense ratio
+* Stable track record with 1Y positive return
+* Moderate fund age (not too new, not too old)
 
-### 🔹 Step 5: Top 30 Funds
+### Step 5: Top 30 Funds
 
 Final list of top 30 funds exported for further analysis.
-🔗 [Excel File – Top 30]()
+🔗 [Excel File – Top 30](https://github.com/notneerajsah/Mutual-Fund-Analyisis-top30-python-excel-powerBi/blob/main/top_30_mutual_funds.xlsx)
 
 ---
 
 ## 📊 Power BI Dashboard – Fund Insights
 
-Processed outputs were then integrated into **Power BI** to create a highly visual dashboard.
-🔗 [PBIX File]()
-🔗 [Dashboard Snapshot]()
+Processed outputs were then integrated into **Power BI** to create a visual dashboard.
+🔗 [PBIX File](https://github.com/notneerajsah/Mutual-Fund-Analyisis-top30-python-excel-powerBi/blob/main/Mutual%20Fund%20Dashboard.pbix)
 
-### ✨ Dashboard Highlights
+### Dashboard Highlights
 
-* **Interactive Filters:** Category, AMC, Risk, Rating, Fund Type
-* **Key Visuals:**
+* Interactive Filters: Category, AMC, Risk, Rating, Fund Type
+* Key Visuals:
 
   * AUM breakdown by category (Equity, Debt, Hybrid, etc.)
   * SIP vs Lumpsum investment trends
@@ -70,36 +73,26 @@ Processed outputs were then integrated into **Power BI** to create a highly visu
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
-| Category                  | Finding                                               |
-| ------------------------- | ----------------------------------------------------- |
-| 💼 **Market Trends**      | Equity funds dominate with AUM ₹1.35M Cr              |
-| 👨‍💼 **Fund Managers**   | Highest AUM handled by Vivek Sharma – ₹7.3M Cr        |
-| 📉 **Cost Efficiency**    | Index funds show lowest average expense ratio (0.26%) |
-| 🏦 **Top Performer (1Y)** | Bank of India MF with 14.4% returns                   |
-| 🔄 **Investment Modes**   | Avg SIP \~₹528/month, Avg lumpsum min \~₹3,050        |
-| ⏳ **3-Year Returns**      | Equity: 37.84%, Hybrid: 14.25%                        |
-
----
-
-## 🖼️ Dashboard Preview
-
-![Mutual Fund Dashboard]()
+| Category           | Finding                                               |
+| ------------------ | ----------------------------------------------------- |
+| Market Trends      | Equity funds dominate with AUM ₹1.35M Cr              |
+| Fund Managers      | Highest AUM handled by Vivek Sharma – ₹7.3M Cr        |
+| Cost Efficiency    | Index funds show lowest average expense ratio (0.26%) |
+| Top Performer (1Y) | Bank of India MF with 14.4% returns                   |
+| Investment Modes   | Avg SIP \~₹528/month, Avg lumpsum min \~₹3,050        |
+| 3-Year Returns     | Equity: 37.84%, Hybrid: 14.25%                        |
 
 ---
 
-## ✅ Conclusion
+## Dashboard Preview
 
-This project demonstrates how combining **Python (data processing), Excel (data validation), and Power BI (visualization)** can turn raw financial data into **actionable investment intelligence**.
-
-By ranking funds with an emphasis on **risk-adjusted returns**, investors gain a clear roadmap to smarter, safer, and more profitable investment decisions.
-
-> 📌 The result is not just a dashboard—it’s a **decision-making tool** for anyone serious about wealth creation through mutual funds.
+![Mutual Fund Dashboard](https://github.com/notneerajsah/Mutual-Fund-Analyisis-top30-python-excel-powerBi/blob/main/Mutual%20Fund%20Dashboard%20.png)
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File                         | Purpose                              |
 | ---------------------------- | ------------------------------------ |
@@ -108,3 +101,4 @@ By ranking funds with an emphasis on **risk-adjusted returns**, investors gain a
 | `Mutual Fund Dashboard.png`  | Dashboard preview image              |
 
 ---
+
